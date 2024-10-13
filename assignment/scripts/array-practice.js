@@ -4,6 +4,7 @@ console.log('****** Array Practice *******');
 console.log('--- 1. Practice creating arrays ---');
 
 // Example: Creating an array of animals
+
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
@@ -114,7 +115,7 @@ console.log('The animals are now', animalArray);
 
 removedcolors = colorsArray.shift();
 console.log('Removed the first color', removedColor);
-console.log('The colors are now', colorsArray);
+console.log('The color are now', colorsArray);
 
 
 
@@ -129,10 +130,16 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 // 5.a (STRETCH) TODO: Replace the second gem with 'Tourmaline'.
 //      Remember to console.log the updated array.
 
+removedgems = gemsArray.index[1];
+console.log('removed the second gem', Citrine);
+let gems =('Tourmaline');
+console.log('New gem:', gemsArray[1]);
 
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
 
+let gemsArray = ['Tourmaline','Topaz','Tanzanite','Iolite','Emerald','Diamond'];
+console.log('The new gems list:', gemsArray);
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
 //     that's made up of each value from the `gems` array, but separated by the
@@ -141,15 +148,15 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 //       "Emerald and Diamond and Tourmaline and Topaz"
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
-
+let gemsArray = ['Tourmaline','and','Topaz','and','Tanzanite','and','Iolite','and','Emerald','and','Diamond'];
+console.log('Gems list', gemsArray')
 
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
 //     the gems array with the colors array.
 //     It should look something like:
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
-
-
+let gemsArray [] +
 
 
 // DO NOT MODIFY
