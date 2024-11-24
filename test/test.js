@@ -136,8 +136,12 @@ describe('Automated tests', function () {
     describe(`STRETCH: Colorful gems contains gems and colors`, function () {
         it(`STRETCH: Colorful gems contains gems and colors`, function () {
             let { colorfulGems } = testItems;
-            expect(colorfulGems).to.be.an('array');
-            expect(colorfulGems).to.eql(['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']);
+            if (colorfulGems === undefined) {
+              this.skip();
+            } else {
+              expect(colorfulGems).to.be.an('array');
+              expect(colorfulGems).to.eql(['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']);
+            }
         });
     });
 });
